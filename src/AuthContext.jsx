@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
   
     try {
       const db = getDatabase();
-      const dataRef = ref(db, `users/`);
+      const dataRef = ref(db, `users`);
 
       const dataSnapshot = await get(dataRef);
       const userData = dataSnapshot.val();
