@@ -1,0 +1,23 @@
+.at0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.at2{
+    display: flex;
+    gap: 80px;
+}
+
+.pays1{
+    background-color: #252f45;
+    border-radius: 15px;
+    width: 60%;
+    height: auto;
+    padding: 15px;
+    align-items: center;
+    border: 1px solid  #3EC7A0;
+    
+}

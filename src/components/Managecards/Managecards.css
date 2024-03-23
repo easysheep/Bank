@@ -1,0 +1,229 @@
+.managecards{
+    padding: 20px 20px;
+    background-color: #151929;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.cl{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.cardarea{
+    width: 60%;
+    position: relative;
+}
+.cardarea h2{
+    color: white;
+}
+.crd{
+    background-color: #3EC7A0;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    gap: 10px;
+}
+.col2{
+    width: 70%;
+}
+
+
+.ur{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+   
+}
+.lr{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.cd{
+    width: 150px;
+    color: gray;
+    margin-left: 30px;
+    color: white;
+    font-weight: 700;
+}
+
+.cd1{
+    width: 20%;
+    font-weight: 600;
+
+}
+.col1{
+    font-size: 30px;
+}
+.col3{
+    display: flex;
+    align-items: center;color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+.cardst{
+    padding-left: 20px;
+}
+.cardst h2{
+    color: white;
+}
+.ced{
+
+    background-color: white;
+
+    height: 250px;
+    width: 250px;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.span5{
+    color: white;
+}
+
+.form{
+    background-color: #1C2438;
+    max-width: 100%;
+    height: 230px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.rs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.lb{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    gap: 2px;
+    width: 40%;
+}
+
+.input{
+
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 20px;
+    padding: 2px 5px;
+}
+
+.btn{
+    padding: 8px 12px;
+    cursor: pointer;
+    color: white;
+    background-color: #3EC7A0;
+    border: 0px;
+    transition: 0.3s ease-out;
+
+
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.cardadd{
+    width: 70%;
+    background-color: #1C2438;
+    padding: 5px 10px;
+
+}
+.cardadd h2{
+    color: white;
+}
+.pl{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.cs{
+    margin-left: 50px;
+    width: auto;
+    background-color: #1C2438;
+    padding: 5px 10px;
+    
+}
+.cs h2{
+    color: white;
+}
+.csbox{
+    background-color: #1C2438;
+    padding: 5px 8px;
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 230px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sr{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+    padding: 4px 5px;border-radius: 10px;
+    color: white;
+}
+
+.sr:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.details-container {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background-color: #252f45;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #fff;
+  }
+  
+  .details-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .details-container p {
+    margin: 5px 0;
+  }
+  
+  .details-container button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #3EC7A0;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+
+.input-group{
+    display: flex;
+}

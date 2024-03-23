@@ -1,0 +1,271 @@
+{
+  "users": [
+    {
+      "email": "trish21@mail.com",
+      "userData": {
+        "loanData": {
+          "loans": [
+            {
+              "desc": "personal loan",
+              "loanmoney": "$ 12000",
+              "duration": "1y",
+              "rate": "10%",
+              "installment": "$1,014.69"
+            },
+            {
+              "desc": "personal loan",
+              "loanmoney": "$ 4000",
+              "duration": "6 mo",
+              "rate": "8%",
+              "installment": "$ 675.17"
+            }
+          ]
+        },
+        "cardData": {
+          "cards": [
+            {
+              "balance": 3000,
+              "holder": "Trish Una",
+              "valid_thru": "12/27",
+              "number": "1234 \u00A0\u00A0\u00A05678\u00A0\u00A0\u00A0 9100",
+              "bank": "Chase Bank",
+              "pin": "3119",
+              "blocked": false
+            },
+            {
+              "balance": 2340,
+              "holder": "Trish Una",
+              "valid_thru": "12/25",
+              "number": "1029 \u00A0\u00A0\u00A03948 \u00A0\u00A0\u00A05790",
+              "bank": "Bank Of America",
+              "pin": "3118",
+              "blocked": false
+            },
+            {
+              "balance": 5000,
+              "holder": "Trish Una",
+              "valid_thru": "12/25",
+              "number": "1022 \u00A0\u00A0\u00A03898 \u00A0\u00A0\u00A09087",
+              "bank": "Wells Fargo",
+              "pin": "3117",
+              "blocked": false
+            }
+          ]
+        },
+        "expenseData": {
+          "expenses": {
+            "housing": 1000,
+            "grocery": 500,
+            "transportation": 400,
+            "utilities": 600,
+            "entertainment": 300,
+            "personalcare": 250,
+            "misc": 400
+          },
+          "fixedExpenses": [
+            {
+              "desc": "spotify",
+              "amount": "$14.99",
+              "duration": "1 mo"
+            },
+            {
+              "desc": "netflix",
+              "amount": "$17.99",
+              "duration": "1 mo"
+            }
+          ]
+        },
+        "transactionData": {
+          "allTransactions": [
+            {
+              "desc": "personal",
+              "card": "1234 5678 9087",
+              "amt": "$ 500",
+              "date": "12/3/2024",
+              "transid": "VRDSTUY5FGV"
+            },
+            {
+              "desc": "bill",
+              "card": "3287 0971 2345",
+              "amt": "$ 800",
+              "date": "2/9/2024",
+              "transid": "VRAUINBV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "email": "arya@mail.com",
+      "userData":  {
+        "loanData": {
+          "loans": [
+            {
+              "desc": "car loan",
+              "loanmoney": "$ 15000",
+              "duration": "2y",
+              "rate": "12%",
+              "installment": "$704.75"
+            },
+            {
+              "desc": "home loan",
+              "loanmoney": "$ 100000",
+              "duration": "15y",
+              "rate": "8%",
+              "installment": "$955.65"
+            }
+          ]
+        },
+        "cardData": {
+          "cards": [
+            {
+              "balance": 5000,
+              "holder": "Miguel",
+              "valid_thru": "12/27",
+              "number": "7890 \u00A0\u00A0\u00A01234\u00A0\u00A0\u00A0 5678",
+              "bank": "Capital One",
+              "pin": "4567",
+              "blocked": false
+            },
+            {
+              "balance": 3200,
+              "holder": "Miguel",
+              "valid_thru": "12/25",
+              "number": "6789 \u00A0\u00A0\u00A04567 \u00A0\u00A0\u00A02345",
+              "bank": "TD Bank",
+              "pin": "3456",
+              "blocked": false
+            }
+          ]
+        },
+        "expenseData": {
+          "expenses": {
+            "housing": 1200,
+            "grocery": 600,
+            "transportation": 500,
+            "utilities": 700,
+            "entertainment": 400,
+            "personalcare": 300,
+            "misc": 600
+          },
+          "fixedExpenses": [
+            {
+              "desc": "internet",
+              "amount": "$39.99",
+              "duration": "1 mo"
+            },
+            {
+              "desc": "gym membership",
+              "amount": "$29.99",
+              "duration": "1 mo"
+            }
+          ]
+        },
+        "transactionData": {
+          "allTransactions": [
+            {
+              "desc": "shopping",
+              "card": "7890 1234 5678",
+              "amt": "$ 200",
+              "date": "2/15/2024",
+              "transid": "VRFNBTG5FGV"
+            },
+            {
+              "desc": "dining",
+              "card": "6789 4567 2345",
+              "amt": "$ 100",
+              "date": "2/20/2024",
+              "transid": "VRXYSUJTV"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "email": "cersei33@mail.com",
+      "userData":{
+        "loanData": {
+          "loans": [
+            {
+              "desc": "education loan",
+              "loanmoney": "$ 20000",
+              "duration": "3y",
+              "rate": "9%",
+              "installment": "$632.05"
+            },
+            {
+              "desc": "business loan",
+              "loanmoney": "$ 50000",
+              "duration": "5y",
+              "rate": "10%",
+              "installment": "$1055.08"
+            }
+          ]
+        },
+        "cardData": {
+          "cards": [
+            {
+              "balance": 8000,
+              "holder": "Cersei",
+              "valid_thru": "12/27",
+              "number": "2345 \u00A0\u00A0\u00A08901\u00A0\u00A0\u00A0 2345",
+              "bank": "HSBC",
+              "pin": "6789",
+              "blocked": false
+            },
+            {
+              "balance": 4500,
+              "holder": "Cersei",
+              "valid_thru": "12/25",
+              "number": "3456 \u00A0\u00A0\u00A05678 \u00A0\u00A0\u00A01234",
+              "bank": "Barclays",
+              "pin": "7890",
+              "blocked": false
+            }
+          ]
+        },
+        "expenseData": {
+          "expenses": {
+            "housing": 1500,
+            "grocery": 700,
+            "transportation": 600,
+            "utilities": 800,
+            "entertainment": 500,
+            "personalcare": 400,
+            "misc": 700
+          },
+          "fixedExpenses": [
+            {
+              "desc": "phone bill",
+              "amount": "$49.99",
+              "duration": "1 mo"
+            },
+            {
+              "desc": "insurance",
+              "amount": "$99.99",
+              "duration": "1 mo"
+            }
+          ]
+        },
+        "transactionData": {
+          "allTransactions": [
+            {
+              "desc": "travel",
+              "card": "2345 8901 2345",
+              "amt": "$ 300",
+              "date": "3/5/2024",
+              "transid": "VRPMKLT6FGV"
+            },
+            {
+              "desc": "healthcare",
+              "card": "3456 5678 1234",
+              "amt": "$ 150",
+              "date": "3/10/2024",
+              "transid": "VRVYDBHMT"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

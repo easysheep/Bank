@@ -1,0 +1,97 @@
+.dashbrd{
+    padding: 20px 20px;
+    background-color: #151929
+    ;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cardimg{
+    background: rgb(37,47,69);
+background: radial-gradient(circle, rgba(37,47,69,1) 74%, rgba(21,25,41,1) 100%);
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.card{
+
+    height: fit-content;
+    padding: 10px;
+
+}
+.cardimgcontent{
+    display: flex;
+ 
+    gap: 20px;
+}
+.l2{
+    display: flex;
+    font-size: smaller;
+    justify-content: flex-start;
+    gap: 80px;
+
+ 
+
+
+
+}
+.lpc h2{
+    color: white;
+}
+.rpc h2{
+    color: white;
+}
+.l3{
+    display: flex;
+    justify-content: flex-start;
+    font-size: smaller;
+  
+    
+
+}
+.name{
+    width: 180px;
+
+
+}
+.l4{
+    display: flex;
+    font-size: smaller;
+    gap: 20px;
+
+}
+.num{
+    font-size: 30px;
+}
+.icon{
+    font-size: 30px;
+    color: white;
+}
+.l5{
+    font-size: larger;
+}
+.pchart{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-radius: 15px;
+}
+.expenses{
+    display: flex;
+    gap: 20px;
+}
+.weeklyactivity{
+    background-color: white;
+    width: 800px;
+    height: 350px;
+    border-radius: 15px;
+}

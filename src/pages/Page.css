@@ -1,0 +1,83 @@
+
+.c{
+    display: flex;
+}
+.homepage{
+    display: flex;justify-content: center;align-items: center;min-height:100vh ;
+}
+.pays10{
+    background-color: #252f45;
+    border:2px solid  #3EC7A0;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    align-items: center;
+    position: relative;
+    
+}
+
+
+.container {
+    display: flex;
+    height: 100vh; 
+    position: relative; 
+    width: 100%;
+  }
+  
+  .left-panel,
+  .right-panel {
+    flex: 1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .left-panel {
+    background-color: #151929;
+    font-size: 90px;
+    font-family: "Madimi One", sans-serif;
+    cursor: pointer;
+    
+  }
+  .left-panel:hover {
+    opacity: 0.9;
+    
+  }
+  
+  .right-panel {
+    background-color: #3EC7A0; 
+    font-size: 90px;
+    font-family: "Madimi One", sans-serif;
+  }
+  .right-panel:hover {
+    opacity: 0.8;
+    
+  }
+  
+  .overlay-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Red color, replace with your desired color */
+    padding: 20px;
+    color: #fff; /* Text color for the box */
+  }
+  
+
+.at21{
+    display: flex;
+    justify-content: center;
+}
+
+.cp1 h2{
+    font-size: 40px;
+}
+
+
+.login_error{
+  color: white;
+
+}

@@ -1,0 +1,67 @@
+.loanmanager{
+    padding: 20px 20px;
+    background-color: #151929;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.loans{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.col2{
+    width: 550px;
+}
+.al{
+    margin-top: 30px;
+}
+.al h2{
+    color: white;
+}
+
+.head1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 15px 8px;
+}
+.cl9{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.cl9 h2{
+    color: white;
+}
+.up{
+    color: white;
+}
+.num1{
+    color: white;
+}
+
+.box{
+    background-color: #252f45;
+}
+.icon{
+    color: #3EC7A0;
+}
+.ur{
+    color:black ;
+}
+.lr{
+    color: white;
+}
+.col3{
+    text-decoration: none;
+    color: white;
+}
+.col1{
+    width: 60px;
+}
+.col4{
+    width: 60px;
+}
